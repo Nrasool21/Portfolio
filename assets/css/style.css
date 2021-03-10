@@ -29,6 +29,13 @@ html {
     margin-bottom: 5px;
 }
 
+.header div ul li {
+
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px
+}
+
 .about {
 
     border: 2px solid black;
