@@ -1,0 +1,58 @@
+html {
+/*modify the root font-size*/
+    font-size: 10px;
+}
+
+.container {
+
+    background-color: aqua;
+    display: flex;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: brown;
+    padding: 20px;
+
+}
+
+.content {
+
+    background-color: yellow;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.header {
+
+    border: 2px solid blue;
+    margin-bottom: 5px;
+}
+
+.about {
+
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.projects {
+
+    border: 2px solid green;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+
+    flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+
+        flex-direction: column;
+    }
+
+}
