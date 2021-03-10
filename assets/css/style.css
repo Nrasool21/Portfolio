@@ -38,7 +38,25 @@ html {
 .projects {
 
     border: 2px solid green;
+    background-color: orchid;
+    padding: 10px;
     margin-bottom: 5px;
+}
+
+.card {
+
+    border: 2px sold black;
+    background-color: blue;
+    margin-bottom: 1px;
+    margin: 5px;
+}
+
+.cards-container {
+
+    display:flex;
+    background-color: orangered ;
+    flex-wrap: wrap;
+    
 }
 
 @media screen and (max-width: 768px) {
