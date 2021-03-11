@@ -1,112 +1,95 @@
 html {
-/*modify the root font-size*/
-    font-size: 10px;
+  /*modify the root font-size*/
+  font-size: 10px;
 }
 
 .container {
-
-    background-color: aqua;
-    display: flex;
-    height: 100vh;
+  background-color: aqua;
+  display: flex;
+  height: 100vh;
 }
 
 .navbar {
-    background-color: brown;
-    padding: 20px;
-
+  background-color: brown;
+  padding: 20px;
+  height: 100vh;
 }
 
 .content {
-
-    background-color: yellow;
-    padding: 10px;
-    flex-grow: 1;
+  background-color: yellow;
+  padding: 10px;
+  flex-grow: 1;
 }
 
 .header {
-
-    background-image: linear-gradient(to right top, #D16BA5, #86A8E7, #5FFBF1);
-    color:papayawhip;
-    padding: 20px;
-    font-size: large;
-    margin-bottom: 5px;
+  background-image: linear-gradient(to right top, #d16ba5, #86a8e7, #5ffbf1);
+  color: papayawhip;
+  padding: 20px;
+  font-size: large;
+  margin-bottom: 5px;
 }
 
-.header h1{
-
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-style: italic;
-font-weight: 900;
-
+.header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 900;
 }
 
-.container .content .header h1{
-
-    text-align:center;
+.container .content .header h1 {
+  text-align: center;
 }
 
 .my-photo {
-    
-    border: 2px solid black; 
-    border-radius: 100px;
-    align-items: right;
+  border: 2px solid black;
+  border-radius: 100px;
+  align-items: right;
 }
 
 .hero {
-
-    background-image: url("assets/images/backgroundimg.jpg");
-    background-size: cover; 
-    background-position: center;
+  background-image: url("assets/images/backgroundimg.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .navbar div ul li {
-
-    font-size: 10px;
-    padding: 10px
+  font-size: 10px;
+  padding: 10px;
 }
 
 .about {
-
-    border: 2px solid black;
-    margin-bottom: 5px;
+  border: 2px solid black;
+  margin-bottom: 5px;
 }
 
 .projects {
-
-    border: 2px solid green;
-    background-color: orchid;
-    padding: 10px;
-    margin-bottom: 5px;
+  border: 2px solid green;
+  background-color: orchid;
+  padding: 10px;
+  margin-bottom: 5px;
 }
 
 .card {
-
-    border: 2px sold black;
-    background-color: blue;
-    margin-bottom: 1px;
-    margin: 5px;
+  border: 2px sold black;
+  background-color: blue;
+  margin-bottom: 1px;
+  margin: 5px;
+  padding: 10px;
 }
 
 .cards-container {
-
-    display:flex;
-    background-color: orangered ;
-    flex-wrap: wrap;
-    
+  display: flex;
+  background-color: orangered;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-
+  .container {
     flex-direction: column;
-    }
-
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .container {
-
-        flex-direction: column;
-    }
-
+  .container {
+    flex-direction: column;
+  }
 }
