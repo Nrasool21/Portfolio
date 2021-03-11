@@ -25,13 +25,42 @@ html {
 
 .header {
 
-    border: 2px solid blue;
+    background-image: linear-gradient(to right top, #D16BA5, #86A8E7, #5FFBF1);
+    color:papayawhip;
+    padding: 20px;
+    font-size: large;
     margin-bottom: 5px;
 }
 
-.header div ul li {
+.header h1{
 
-    display: inline-block;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+font-weight: 900;
+
+}
+
+.container .content .header h1{
+
+    text-align:center;
+}
+
+.my-photo {
+    
+    border: 2px solid black; 
+    border-radius: 100px;
+    align-items: right;
+}
+
+.hero {
+
+    background-image: url("assets/images/backgroundimg.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+.navbar div ul li {
+
     font-size: 10px;
     padding: 10px
 }
