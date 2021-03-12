@@ -6,19 +6,23 @@ html {
 .container {
   background-color: aqua;
   display: flex;
-  height: 100vh;
+  height: 100%;
+  
 }
 
 .navbar {
   background-color: brown;
   padding: 20px;
   height: 100vh;
+  
 }
+
 
 .content {
   background-color: yellow;
   padding: 10px;
   flex-grow: 1;
+  
 }
 
 .header {
@@ -59,6 +63,37 @@ html {
 .about {
   border: 2px solid black;
   margin-bottom: 5px;
+}
+
+.contact ul li{
+
+    display: inline-block;  
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 100px;
+    
+}
+
+.contact ul{
+
+justify-content: center;
+    display: flex;
+    cursor: pointer; 
+
+}
+
+.contact ul li a{
+
+    font-size: 20px;
+    margin: 0px,60px;
+   
+}
+
+.contact ul li:hover{
+
+background-color: royalblue;
+font-size: 15px;
+
 }
 
 .projects {
