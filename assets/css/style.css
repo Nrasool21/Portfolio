@@ -13,7 +13,6 @@ html {
 .navbar {
   background-color: brown;
   padding: 20px;
-  height: 100vh;
 }
 
 .content {
@@ -81,7 +80,7 @@ html {
 }
 
 .about {
-  border: 2px solid black;
+  
   margin-bottom: 5px;
 }
 
