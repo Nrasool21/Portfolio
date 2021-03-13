@@ -3,6 +3,7 @@ html {
   font-size: 10px;
 }
 
+
 .container {
   background-color: aqua;
   display: flex;
@@ -22,7 +23,7 @@ html {
 }
 
 .header {
-  background-image: linear-gradient(to right top, #d16ba5, #86a8e7, #5ffbf1);
+  background-image: linear-gradient(to right top, #4F658F,#374C86, #04304F);
   color: papayawhip;
   padding: 20px;
   font-size: large;
@@ -45,11 +46,6 @@ html {
   align-items: right;
 }
 
-.hero {
-  background-image: url("assets/images/backgroundimg.jpg");
-  background-size: cover;
-  background-position: center;
-}
 
 .nav-icon ul {
     
