@@ -4,7 +4,6 @@ html {
 }
 
 .container {
-
   /*background-color: aqua;*/
   display: flex;
   height: 100%;
@@ -16,7 +15,6 @@ h1 {
 
 h2 {
   font-size: 22px;
-
 }
 
 .navbar {
@@ -25,14 +23,13 @@ h2 {
 }
 
 .content {
-  
   /*background-color: yellow;*/
   padding: 10px;
   flex-grow: 1;
 }
 
 .header {
-  background-image: linear-gradient(to right top, #4F658F,#374C86, #04304F);
+  background-image: linear-gradient(to right top, #4f658f, #374c86, #04304f);
   color: papayawhip;
   padding: 20px;
   font-size: large;
@@ -55,37 +52,29 @@ h2 {
   align-items: right;
 }
 
-
 .nav-icon ul {
-    
   list-style-type: none;
   font-size: 20px;
 }
 
 .nav-icon ul li {
-
   align-items: center;
-   margin: 50px 0px;
-  
+  margin: 50px 0px;
 }
 
-.nav-icon ul li a{
-
-    color: darkgrey;
-    font-family:monospace;
-    text-decoration: none;
+.nav-icon ul li a {
+  color: darkgrey;
+  font-family: monospace;
+  text-decoration: none;
 }
 
-.nav-icon ul li a:hover{
-
-    font-weight: bolder;    
-    color: whitesmoke;
-
+.nav-icon ul li a:hover {
+  font-weight: bolder;
+  color: whitesmoke;
 }
 
-.about-me{
-
-    display: block;
+.about-me {
+  display: block;
 }
 
 .about {
@@ -109,7 +98,6 @@ h2 {
 .contact ul li a {
   font-size: 20px;
   margin: 0px, 60px;
-  
 }
 
 .contact ul li:hover {
@@ -130,6 +118,7 @@ h2 {
   margin-bottom: 1px;
   margin: 5px;
   padding: 10px;
+  color: aliceblue;
 }
 
 .cards-container {
