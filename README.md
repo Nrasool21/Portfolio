@@ -8,15 +8,15 @@
 
 - Created our HTML page with sementic HTML elements.
 - Added portfolio picture and other images with alt attributes for better accessibility. 
-- Created navigation bars
+- Applied pseudo classes to navigation bar and icons.
 - Added social-media icons and navigated it to github and linkedin profiles. 
 - Added my previous projects with links to the deployed source.  
 - Styled my first project to appear bigger than the rest. 
-- Applied pseudo classes to icons and navigation bar.
 - Applied core skills of flexbox, media queries to give my portfolio a responsive layout that adapts to various viewports. 
 
-
 ## Screenshots
+
+![Portfolio | Nazia Rasool](./assets/images/Portfolio_screenshot.png)
 
 ## Link to Deployed Application 
 
