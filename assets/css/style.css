@@ -113,18 +113,22 @@ h2 {
 }
 
 .card {
-  border: 2px sold black;
-  background-color: blue;
   margin-bottom: 1px;
   margin: 5px;
   padding: 10px;
-  color: aliceblue;
+  color: rgb(57, 58, 59);
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgb(0, 0, 0, 0.25) ;
 }
 
 .cards-container {
   display: flex;
   /*background-color: orangered;*/
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 768px) {
