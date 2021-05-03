@@ -13,10 +13,12 @@
 - Added my previous projects with links to the deployed source.  
 - Styled my first project to appear bigger than the rest. 
 - Applied core skills of flexbox, media queries to give my portfolio a responsive layout that adapts to various viewports. 
+- Added bootstrap framework 
 
 ## Screenshots
 
 ![Portfolio | Nazia Rasool](./assets/images/Portfolio_screenshot.png)
+![Portfolio | Nazia Rasool](./assets/screenshots/Screenshot_portfolio.png)
 
 ## Link to Deployed Application 
 
